@@ -1,6 +1,6 @@
-const pump = require('pump')
-const hyperswarm = require('hyperswarm')
-const Protocol = require('hypercore-protocol')
+const pump = require("./pre-bundled/node_modules/pump")
+const hyperswarm = require("./pre-bundled/node_modules/hyperswarm")
+const Protocol = require("./pre-bundled/node_modules/hypercore-protocol")
 const { EventEmitter } = require('events')
 
 const promises = Symbol.for('hypercore.promises')

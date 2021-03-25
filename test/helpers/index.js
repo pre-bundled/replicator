@@ -1,4 +1,4 @@
-const dht = require('dht-rpc')
+const dht = require("../../pre-bundled/node_modules/dht-rpc")
 const tape = require('tape')
 const Replicator = require('../../')
 
